@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--Homework 6 Charles Towle-->
+<!--ran out of time to format-->
+<!--I had some difficultly with animating the gifs-->
+<!--storing data in the html attribute to avoid the scope problem is interesting-->
+<!--got it working but I had a typo scr src spent hours ug-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GifTastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        button,
+        div,
+        form,
+        input {  
+            margin: 10px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="buttons"></div>
+        <div id="city-view"></div>
+        <form id="city-form">
+            <label for="city-input">Add a City</label>
+            <input type="text" id="city-input">
+            <br>
+            <input id="add-city" type="submit" value="Add a City">
+        </form>
+    </div>
+    <div id="gifcard">
+        <div id="images"></div>
+    </div>
+    <script src="assets/main.js"></script>
+</body>
+</html>
